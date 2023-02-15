@@ -1,0 +1,18 @@
+#1. Create a diretory named my_folder, navigate inside that directory. Create two files named one.rb and two.rb in my_folder. Write a ruby program that
+#outputs "This is file one" when one.rb is ran, and outputs "This is file two" when two.rb is ran
+
+mkdir my_folder
+cd my_folder
+touch one.rb
+touch two.rb
+
+#inside the one.rb text editor
+puts "this is file one"
+
+#inside the two.rb text editor
+puts "this is file two"
+
+#2. delete all of the content you have created with one command
+
+cd..
+rm -R my_folder
